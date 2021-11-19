@@ -512,8 +512,8 @@ export const GARDE_MANGER = [
     answer: ["Beffetier"]
   },
   {
-    text: "Commis",
-    answer: ["Works as an apprentice learning the duties of garde-manger."]
+    text: "Works as an apprentice learning the duties of garde-manger.",
+    answer: ["Commis"]
   },
   {
     text: "Structure (Parts) of a Salad",
