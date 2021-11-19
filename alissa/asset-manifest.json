@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/alissa/static/css/main.3f1da9c7.chunk.css",
-    "main.js": "/alissa/static/js/main.e02829ac.chunk.js",
-    "main.js.map": "/alissa/static/js/main.e02829ac.chunk.js.map",
+    "main.css": "/alissa/static/css/main.4fb6c85a.chunk.css",
+    "main.js": "/alissa/static/js/main.f2017b0d.chunk.js",
+    "main.js.map": "/alissa/static/js/main.f2017b0d.chunk.js.map",
     "runtime-main.js": "/alissa/static/js/runtime-main.d4f0ba47.js",
     "runtime-main.js.map": "/alissa/static/js/runtime-main.d4f0ba47.js.map",
     "static/js/2.8f096c05.chunk.js": "/alissa/static/js/2.8f096c05.chunk.js",
     "static/js/2.8f096c05.chunk.js.map": "/alissa/static/js/2.8f096c05.chunk.js.map",
     "index.html": "/alissa/index.html",
-    "static/css/main.3f1da9c7.chunk.css.map": "/alissa/static/css/main.3f1da9c7.chunk.css.map",
-    "static/js/2.8f096c05.chunk.js.LICENSE.txt": "/alissa/static/js/2.8f096c05.chunk.js.LICENSE.txt"
+    "static/css/main.4fb6c85a.chunk.css.map": "/alissa/static/css/main.4fb6c85a.chunk.css.map",
+    "static/js/2.8f096c05.chunk.js.LICENSE.txt": "/alissa/static/js/2.8f096c05.chunk.js.LICENSE.txt",
+    "static/media/photo.cb76fcc0.jpg": "/alissa/static/media/photo.cb76fcc0.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.d4f0ba47.js",
     "static/js/2.8f096c05.chunk.js",
-    "static/css/main.3f1da9c7.chunk.css",
-    "static/js/main.e02829ac.chunk.js"
+    "static/css/main.4fb6c85a.chunk.css",
+    "static/js/main.f2017b0d.chunk.js"
   ]
 }
