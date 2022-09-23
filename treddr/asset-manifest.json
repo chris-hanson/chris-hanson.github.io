@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "treddr/static/css/main.1053c340.css",
-    "main.js": "treddr/static/js/main.4b3bf5c6.js",
-    "service-worker.js": "treddr/service-worker.js",
-    "index.html": "treddr/index.html",
-    "main.1053c340.css.map": "treddr/static/css/main.1053c340.css.map",
-    "main.4b3bf5c6.js.map": "treddr/static/js/main.4b3bf5c6.js.map"
+    "main.css": "/treddr/static/css/main.1053c340.css",
+    "main.js": "/treddr/static/js/main.8159c065.js",
+    "service-worker.js": "/treddr/service-worker.js",
+    "index.html": "/treddr/index.html",
+    "main.1053c340.css.map": "/treddr/static/css/main.1053c340.css.map",
+    "main.8159c065.js.map": "/treddr/static/js/main.8159c065.js.map"
   },
   "entrypoints": [
     "static/css/main.1053c340.css",
-    "static/js/main.4b3bf5c6.js"
+    "static/js/main.8159c065.js"
   ]
 }
