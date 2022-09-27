@@ -6,7 +6,7 @@
   "source": "src/index.html",
   "scripts": {
     "start": "parcel",
-    "build": "parcel build --public-url=/macros && cp -r src/macros dist/macros && cp -r src/alissa dist/alissa",
+    "build": "parcel build && cp -r src/macros dist/macros && cp -r src/alissa dist/alissa",
     "predeploy": "rm -rf ./dist/* && npm run build",
     "deploy": "gh-pages -d dist"
   },
