@@ -1,0 +1,26 @@
+{
+  "name": "chris-hanson.github.io",
+  "version": "1.0.0",
+  "description": "About me",
+  "homepage": "https://chris-hanson.github.io",
+  "source": "src/index.html",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build && cp -r src/macros dist/macros && cp -r src/alissa dist/alissa",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chris-hanson/chris-hanson.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chris-hanson/chris-hanson.github.io/issues"
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0",
+    "parcel": "^2.7.0"
+  }
+}
