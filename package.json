@@ -3,11 +3,12 @@
   "version": "1.0.0",
   "description": "About me",
   "homepage": "https://chris-hanson.github.io",
-  "source": "src/index.html",
+  "source": "public/index.html",
   "scripts": {
     "start": "parcel",
-    "build": "parcel build && cp -r src/macros dist/macros && cp -r src/alissa dist/alissa",
-    "predeploy": "rm -rf ./dist/* && npm run build",
+    "build": "parcel build && cp -r public/alissa dist && cp -r public/macros dist",
+    "clean": "rm -rf ./dist",
+    "predeploy": "npm run clean && npm run build",
     "deploy": "gh-pages -d dist"
   },
   "repository": {
@@ -20,6 +21,8 @@
     "url": "https://github.com/chris-hanson/chris-hanson.github.io/issues"
   },
   "devDependencies": {
+    "@parcel/packager-raw-url": "^2.7.0",
+    "@parcel/transformer-webmanifest": "^2.7.0",
     "gh-pages": "^4.0.0",
     "parcel": "^2.7.0"
   }
